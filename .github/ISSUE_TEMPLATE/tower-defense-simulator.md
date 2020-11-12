@@ -1,6 +1,7 @@
 ---
 name: Tower Defense Simulator
 title: ''
+about: Bug Report
 labels: tower-defense-simulator
 assignees: Razuatix, BelowNatural
 
