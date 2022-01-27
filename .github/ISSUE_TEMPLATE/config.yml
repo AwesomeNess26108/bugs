@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Critical TDS Bugs
+    url: mailto:bugs@paradoxum.games
+    about: Please report emergency tds bugs here.
