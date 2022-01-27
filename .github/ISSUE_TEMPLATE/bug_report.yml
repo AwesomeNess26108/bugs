@@ -10,7 +10,6 @@ body:
       label: Describe the bug
       description: What happened when the bug occured?
       placeholder: A short description of the bug
-      value: ""
     validations:
       required: true
       
@@ -20,7 +19,6 @@ body:
       label: To Reproduce
       description: What did you do in-game for the bug to occur?
       placeholder: Steps to reproduce the behavior in-game
-      value: ""
     validations:
       required: true
 
@@ -30,7 +28,6 @@ body:
       label: Expected Behavior
       description: What was supposed to happen?
       placeholder: A description of what you expected to happen.
-      value: ""
     validations:
       required: true
 
@@ -40,8 +37,6 @@ body:
       label: Additional Information
       description: Is there any additional information you want to attach to the report?
       placeholder: Any additional information that is relevant to the problem.
-      value: ""
-
     validations:
       required: false
 
