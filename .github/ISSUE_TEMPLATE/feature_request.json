@@ -1,0 +1,47 @@
+name: Feature Request
+description: Suggest a new feature for TDS
+title: "[NEW]"
+labels: []
+assignees: []
+body:
+  - type: textarea
+    id: use-case
+    attributes:
+      label: The problem/use-case that the feature addresses
+      description: Why should we add this feature to TDS?
+      placeholder: A description of the problem that the feature will solve, or the use-case with which the feature will be used.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the feature
+      description: What should the feature include?
+      placeholder: A description of what you want to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Is there any alternative solutions?
+      placeholder: Any alternative solutions or features you've considered, including references to existing open and closed feature requests in this repository.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Is there any additional information you want to attach to the feature request?
+      placeholder: Any additional information that is relevant to the feature.
+    validations:
+      required: false
+
+
+
+
+
+
