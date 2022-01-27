@@ -1,0 +1,52 @@
+name: Bug Report
+description: Help us improve TDS by reporting a bug!
+title: "[BUG]"
+labels: []
+assignees: []
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What happened when the bug occured?
+      placeholder: A short description of the bug
+      value: ""
+    validations:
+      required: true
+      
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: To Reproduce
+      description: What did you do in-game for the bug to occur?
+      placeholder: Steps to reproduce the behavior in-game
+      value: ""
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What was supposed to happen?
+      placeholder: A description of what you expected to happen.
+      value: ""
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Is there any additional information you want to attach to the report?
+      placeholder: Any additional information that is relevant to the problem.
+      value: ""
+
+    validations:
+      required: false
+
+
+
+
+
+
